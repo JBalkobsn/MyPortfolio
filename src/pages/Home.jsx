@@ -1,10 +1,19 @@
 import * as React from "react";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import { Col, Row } from "react-bootstrap";
+import { Banner, TileSection } from "../components";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <Row
+      className="h-20"
+      style={{ width: "100vw", height: "93vh", backgroundColor: "blue" }}
+    >
+      <div style={{ width: "100vw" }}>
+        <Banner />
+        <TileSection />
+      </div>
+    </Row>
+  );
 };
 
 export default Home;

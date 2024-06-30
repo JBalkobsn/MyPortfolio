@@ -8,10 +8,9 @@ const SiteLayout = () => {
     <Container
       fluid
       style={{
-        backgroundColor: "#202124",
         height: "100vh",
-        overflow: "hidden",
-        padding: "0",
+        justifyContent: "center", // Zentrierung horizontal
+        alignItems: "top", // Zentrierung vertikal
       }}
     >
       <Navbar />
