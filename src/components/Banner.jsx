@@ -10,9 +10,13 @@ const Banner = () => {
         width: "100vw",
         height: "40vh",
         background: "linear-gradient(135deg, #d5d5d5 0%, #f0f0f0 100%)",
+        overflow: "auto",
       }}
     >
-      <Col sm={4} style={{ paddingLeft: "10%", textAlign: "left" }}>
+      <Col
+        sm={4}
+        style={{ paddingLeft: "10%", textAlign: "left", height: "100vh" }}
+      >
         <a style={{ fontSize: "500%" }}>About Me</a>
         <br />
         <a>
@@ -32,8 +36,13 @@ const Banner = () => {
         <br />
         <button />
       </Col>
-      <Col sm={4}>Jakob Baltes</Col>
-      <Col sm={4} style={{ textAlign: "left", paddingRight: "10%" }}>
+      <Col style={{ height: "100vh" }} sm={4}>
+        Jakob Baltes
+      </Col>
+      <Col
+        sm={4}
+        style={{ textAlign: "left", paddingRight: "10%", height: "100vh" }}
+      >
         <a style={{ fontSize: "500%" }}>About Me</a>
         <br />
         <a>
